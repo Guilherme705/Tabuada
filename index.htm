@@ -9,22 +9,22 @@
 <body>
     <header>
         <img src="/images/img1.png" alt="image" srcset="">
-        <h1>Tabuada</h1>
+        <h1>Tabuada Multiplicação</h1>
     </header>
     <section>
         <div>
             <p> Qual Número Você Deseja Saber a Tabuada? </p>
-            <input type="number" class="form">
+            <input type="number" class="form" id="num">
             <p>Até que Número Você deseja Saber?</p>
-            <input type="number" class="form">
+            <input type="number" class="form" id="end">
             <p>
-                <input type="button" value="Calcular" id="button">
+                <input type="button" value="Calcular" id="button" onclick="tabuada()"> 
             </p>
         </div>
         <div id="result">
             Preencha os Valores Acima!
         </div>
     </section>
-   
+   <script src="tabuada_script.js"></script>
 </body>
 </html>
