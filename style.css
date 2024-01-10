@@ -5,6 +5,7 @@ body{
 }
 img{
     width: 50%;
+
 }
 header{
     display: grid;
@@ -36,4 +37,27 @@ section{
     border:none;
     height: 20px;
     width: 200px;
+}
+@media only screen and (max-width: 600px){
+    img{
+        width: 25%;
+        height: 25%;
+    }
+    .form{
+        width: 160px;
+    }
+
+    section{
+        margin-top: 30px;
+    }
+
+    header{
+        display:list-item;
+      
+    }
+    header h1{
+        padding-top: 100px;
+        padding: 0;
+        margin-bottom: 50px;
+    }
 }
